@@ -1,23 +1,23 @@
 package figurasInternet;
 
-public class Quadrado implements FiguraInternet{
+public class Quadrado implements FiguraInternet {
 
 	@Override
 	public void desenharFigura() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
-	public void area() {
+	public double area() {
 		// TODO Auto-generated method stub
-		
+		return 0;
 	}
 
 	@Override
-	public void volume() {
+	public double volume() {
 		// TODO Auto-generated method stub
-		
+		return 0;
 	}
 
 }

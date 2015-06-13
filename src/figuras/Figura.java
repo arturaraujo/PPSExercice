@@ -1,7 +1,6 @@
 package figuras;
 import java.util.ArrayList;
 
-
 public interface Figura {
 	
 	public double perimetro();

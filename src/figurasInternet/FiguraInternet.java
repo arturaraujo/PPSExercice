@@ -3,7 +3,7 @@ package figurasInternet;
 public interface FiguraInternet {
 	
 	public void desenharFigura();
-	public void area();
-	public void volume();
+	public double area();
+	public double volume();
 	
 }
