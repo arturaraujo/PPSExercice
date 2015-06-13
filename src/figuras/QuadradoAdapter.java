@@ -2,16 +2,16 @@ package figuras;
 
 import java.util.ArrayList;
 
-import figurasInternet.Losango;
+import figurasInternet.Quadrado;
 
-public class LosangoAdapter implements Figura{
+public class QuadradoAdapter implements Figura{
+
+	Quadrado quadrado;
 	
-	Losango losango;
-	
-	public LosangoAdapter() {
-		this.losango = new Losango();
+	public QuadradoAdapter() {
+		this.quadrado = new Quadrado();
 	}
-
+	
 	@Override
 	public double perimetro() {
 		// TODO Auto-generated method stub
@@ -20,12 +20,12 @@ public class LosangoAdapter implements Figura{
 
 	@Override
 	public double area() {
-		return this.losango.area();
+		return this.quadrado.area();
 	}
 
 	@Override
 	public void desenha() {
-		this.losango.desenharFigura();
+		this.quadrado.desenharFigura();
 	}
 
 	@Override
@@ -45,6 +45,5 @@ public class LosangoAdapter implements Figura{
 		// TODO Auto-generated method stub
 		
 	}
-	
-	
+
 }
