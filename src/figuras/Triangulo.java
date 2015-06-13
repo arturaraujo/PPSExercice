@@ -42,5 +42,29 @@ public abstract class Triangulo implements Figura {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public Reta getR1() {
+		return r1;
+	}
+
+	public void setR1(Reta r1) {
+		this.r1 = r1;
+	}
+
+	public Reta getR2() {
+		return r2;
+	}
+
+	public void setR2(Reta r2) {
+		this.r2 = r2;
+	}
+
+	public Reta getR3() {
+		return r3;
+	}
+
+	public void setR3(Reta r3) {
+		this.r3 = r3;
+	}
 	
 }

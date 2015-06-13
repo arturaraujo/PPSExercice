@@ -12,6 +12,10 @@ public class QuadradoAdapter implements Figura{
 		this.quadrado = new Quadrado();
 	}
 	
+	public QuadradoAdapter(double lado) {
+		this.quadrado = new Quadrado(lado);
+	}
+	
 	@Override
 	public double perimetro() {
 		// TODO Auto-generated method stub

@@ -6,6 +6,10 @@ public class FiguraComposta implements Figura {
 
 	private ArrayList<Figura> figuras;
 	
+	public FiguraComposta() {
+		this.figuras = new ArrayList<Figura>();
+	}
+	
 	@Override
 	public double perimetro() {
 		// TODO Auto-generated method stub
@@ -28,7 +32,11 @@ public class FiguraComposta implements Figura {
 
 	@Override
 	public String desenha() {
-		return "";
+		StringBuffer string = new StringBuffer("Figuras: \n");
+		for (Figura f :this.figuras){
+			string.append(f.desenha() + "\n");
+		}
+		return string.toString();
 	}
 
 	@Override

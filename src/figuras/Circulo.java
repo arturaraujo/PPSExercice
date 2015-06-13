@@ -33,7 +33,7 @@ public class Circulo implements Figura{
 
 	@Override
 	public String desenha() {
-		return String.format("Figura CÃ­rculo: Raio Ponto1%f - Ponto2%f",raio.getP1().toString(),raio.getP2().toString());
+		return String.format("Figura Círculo: Raio Ponto1: %f - Ponto2: %f.", raio.getP1().toString(), raio.getP2().toString());
 	}
 
 	@Override

@@ -11,7 +11,7 @@ public class TrianguloEquilatero extends Triangulo{
 	@Override
 	public String desenha() {
 		
-		return null;
+		return "Triangulo equilatero. Lado: " + super.getR1();
 		//TODO implementar isso aqui!!
 		
 		

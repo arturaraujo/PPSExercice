@@ -14,7 +14,7 @@ public class Quadrado implements FiguraInternet {
 	
 	@Override
 	public String desenharFigura() {
-		return lado + "";
+		return "Lado: " + lado;
 	}
 
 	@Override
