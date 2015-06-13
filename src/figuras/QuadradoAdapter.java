@@ -24,8 +24,8 @@ public class QuadradoAdapter implements Figura{
 	}
 
 	@Override
-	public void desenha() {
-		this.quadrado.desenharFigura();
+	public String desenha() {
+		return this.quadrado.desenharFigura();
 	}
 
 	@Override

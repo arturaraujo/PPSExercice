@@ -9,9 +9,9 @@ public class TrianguloIsosceles extends Triangulo {
 	}
 
 	@Override
-	public void desenha() {
+	public String desenha() {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
 
 }

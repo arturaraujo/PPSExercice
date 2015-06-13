@@ -9,9 +9,9 @@ public class TrianguloEquilatero extends Triangulo{
 	}
 
 	@Override
-	public void desenha() {
+	public String desenha() {
 		
-		
+		return null;
 		//TODO implementar isso aqui!!
 		
 		

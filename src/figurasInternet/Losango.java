@@ -2,22 +2,38 @@ package figurasInternet;
 
 public class Losango implements FiguraInternet {
 
-	@Override
-	public void desenharFigura() {
-		// TODO Auto-generated method stub
+	double base, altura;
 
+	@Override
+	public String desenharFigura() {
+		return "Base: " + base + ". Atura: " + altura;
 	}
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		return base * altura / 2;
 	}
 
 	@Override
 	public double volume() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	public double getBase() {
+		return base;
+	}
+
+	public void setBase(double base) {
+		this.base = base;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
 	}
 
 }

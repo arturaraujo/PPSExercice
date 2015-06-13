@@ -27,8 +27,8 @@ public class FiguraComposta implements Figura {
 	}
 
 	@Override
-	public void desenha() {
-		System.out.println("");
+	public String desenha() {
+		return "";
 	}
 
 	@Override

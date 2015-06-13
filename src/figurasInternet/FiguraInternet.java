@@ -2,7 +2,7 @@ package figurasInternet;
 
 public interface FiguraInternet {
 	
-	public void desenharFigura();
+	public String desenharFigura();
 	public double area();
 	public double volume();
 	

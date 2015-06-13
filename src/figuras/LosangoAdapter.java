@@ -24,8 +24,8 @@ public class LosangoAdapter implements Figura{
 	}
 
 	@Override
-	public void desenha() {
-		this.losango.desenharFigura();
+	public String desenha() {
+		return this.losango.desenharFigura();
 	}
 
 	@Override
